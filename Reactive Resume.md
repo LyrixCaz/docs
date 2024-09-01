@@ -7,6 +7,7 @@
 - For Local interaction make sure you populate the public urls and storage urls with the local IP of host access, not the container IP.
 - For the love of god please make sure you leave a trailing ' / ' on the storage url and NO trailing ' / ' on the public url. 
 - In the quadlets, when specifying a path i end with :Z due to SELinux, if you do not have SELinux on your computer, then disregard putting the ' :Z '
+- I use a reverse proxy like NGINX proxy manager and i point my domain to my address; in this case 'https://192.168.122.1:3300'
 
 You need to make sure of all of these for PDF export/download to work. As of 9/1/24 there are no previews in the resume dashboard, i suspect it will be implemented in the future, it only makes sense, at least to have an option to toggle such function if system resources are a concern.
 

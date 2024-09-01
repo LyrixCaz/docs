@@ -1,2 +1,3 @@
 # docs
-Documentation on projects
+Personal Tips/Tricks & Documentation on projects ei:
+* Reactive (Rx) Resume
